@@ -1,14 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Login from '../src/components/Login';
-import Home from '../src/components/Home';
+import Login from './components/Login';
+import Home from './components/Home';
+
 
 
 const App = () => {
 
   return (
     <BrowserRouter>
-         <Route path="/" exact component={Login} />
+         <Route path="/"  component={Login} />
          <Route path="../src/componets/Home" component={Home} />
        </BrowserRouter>
      );

@@ -1,6 +1,6 @@
 import { useState } from "react";
-//import reactLogo from './assets/j.png'
-//import './App.css';
+import logo from '../assets/j.png'
+
 
 
 
@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="principal">
       <div className='container mx-auto px-60	'>
-        <img src={j} className="object-scale-down object-center h-48 w-96  " alt="jay's logo" /><br></br>
+        <img src={logo} className="object-scale-down object-center h-48 w-96  " alt="jay's logo" />
 
         <form className="flex items-center content-center" onSubmit={handleSignupForm}>
 
